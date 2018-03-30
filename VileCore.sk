@@ -12,6 +12,12 @@ options:
 
 
 # Information Commands
+command /ping:
+    permission: rank.default
+    permission message: {@NoPermission}
+    trigger:
+    	message "{@Prefix} &7Your ping is %player's ping%"
+
 command /help:
     permission: rank.default
     permission message: {@NoPermission}
